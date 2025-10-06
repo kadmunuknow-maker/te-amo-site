@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surpresa 💕</title>
+  <style>
+    body {
+      background-color: #ffe6f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: "Poppins", sans-serif;
+    }
+    h1 {
+      color: #ff4d79;
+      font-size: 2em;
+    }
+    button {
+      background-color: #ff4d79;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #ff1a5c;
+    }
+  </style>
+</head>
+<body>
+  <h1>Clique no botão 😘</h1>
+  <button onclick="mostrarMensagem()">Clique aqui</button>
+
+  <script>
+    function mostrarMensagem() {
+      document.body.innerHTML = "<h1>💖 Te amo 💖</h1>";
+    }
+  </script>
+</body>
+</html>
